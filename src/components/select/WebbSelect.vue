@@ -15,7 +15,7 @@
 import { cva, type VariantProps } from 'class-variance-authority'
 
 import type { PropType } from 'vue'
-import type { SelectOption } from '@/types/SelectOption'
+import type { SelectOption } from './SelectOption'
 
 const button = cva('button', {
   variants: {

@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 
 import { mount } from '@vue/test-utils'
-import WebbButton from '@/components/button/WebbButton.vue'
+import WebbButton from '../button/WebbButton.vue'
 
 describe('WebbButton', () => {
   it('has a danger type', () => {
